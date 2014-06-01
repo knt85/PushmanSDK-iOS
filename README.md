@@ -1,0 +1,4 @@
+PushmaniSDK
+===========
+
+PushmanSDK for CocoaPods
