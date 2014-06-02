@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
     :git => "https://github.com/Pushman/PushmanSDK-iOS.git",
     :tag => "release-0.1.2"
   }
+  s.platform   = :ios
   s.frameworks = 'AudioToolbox'
   s.preserve_paths = "PushmanSDK/PushmanSDK.framework"
   s.public_header_files = "PushmanSDK/PushmanSDK.framework/**/*.h"
