@@ -2,3 +2,4 @@ PushmaniSDK
 ===========
 
 PushmanSDK for CocoaPods
+

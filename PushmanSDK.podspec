@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "PushmanSDK"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "PushmanSDK"
   s.homepage     = "http://www.pushman.js"
   s.license = {
@@ -11,10 +11,10 @@ Pod::Spec.new do |s|
   s.author       = "Pushman"
   s.source       = {
     :git => "https://github.com/Pushman/PushmanSDK-iOS.git",
-    :tag => "release-0.1.2"
+    :tag => "release-0.1.3"
   }
   s.platform   = :ios
-  s.frameworks = 'AudioToolbox'
+  s.frameworks = 'AudioToolbox', 'SystemConfiguration'
   s.preserve_paths = "PushmanSDK/PushmanSDK.framework"
   s.public_header_files = "PushmanSDK/PushmanSDK.framework/**/*.h"
   s.vendored_frameworks = 'PushmanSDK/PushmanSDK.framework'

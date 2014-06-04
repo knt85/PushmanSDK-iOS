@@ -32,4 +32,7 @@
 - (PMPush *)push;
 
 - (PMAttribute *)user;
+
++ (BOOL) isConnectNetwork;
+
 @end
