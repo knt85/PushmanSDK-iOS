@@ -17,7 +17,8 @@
 
 - (void)createDevices:(PMApiRequestListener *)listener;
 
-- (void)updateDevices:(PMApiRequestListener *)listener;
+- (void)updateDeviceAttributes:(NSDictionary *)attributes;
+//- (void)updateDevices:(PMApiRequestListener *)listener;
 
 - (void)createDevices:(NSString *)deviceToken callback:(PMApiRequestListener *)listener;
 

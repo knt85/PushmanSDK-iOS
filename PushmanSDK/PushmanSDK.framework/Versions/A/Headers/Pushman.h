@@ -2,6 +2,9 @@
 //  Pushman.h
 //  Pushman
 //
+//  PushmanSDK VERSION : 0.1.4
+//  Last Update: 2014/06/06
+//
 
 #import <Foundation/Foundation.h>
 #import "PMApiRequestListener.h"
