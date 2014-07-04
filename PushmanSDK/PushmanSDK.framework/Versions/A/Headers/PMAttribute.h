@@ -13,12 +13,11 @@
 
 - (void)create;
 
-- (void)updateAttributes:(NSDictionary *)attributes callback:(PMApiRequestListener *)listener;
+- (void)updateAttributes:(NSDictionary *)attributes;
 
 - (void)createDevices:(PMApiRequestListener *)listener;
 
 - (void)updateDeviceAttributes:(NSDictionary *)attributes;
-//- (void)updateDevices:(PMApiRequestListener *)listener;
 
 - (void)createDevices:(NSString *)deviceToken callback:(PMApiRequestListener *)listener;
 
@@ -27,7 +26,7 @@
 - (void)register:(NSString *)deviceToken withOption:(NSDictionary*)option callback:(PMApiRequestListener *)listener;
 
 - (NSString *)userId;
-
+- (NSString *)deviceId;
 - (void) removeLocalIds;
 
 @end

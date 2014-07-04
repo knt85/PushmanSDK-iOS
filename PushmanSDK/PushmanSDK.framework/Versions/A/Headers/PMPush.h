@@ -25,4 +25,6 @@
 
 - (void)updateBadgeCount:(NSInteger) count;
 
+- (void)registerRemoteNotification;
+
 @end

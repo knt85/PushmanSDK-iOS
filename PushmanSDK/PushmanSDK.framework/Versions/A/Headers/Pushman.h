@@ -2,19 +2,18 @@
 //  Pushman.h
 //  Pushman
 //
-//  PushmanSDK VERSION : 0.1.5
+//  PushmanSDK VERSION : 0.2.0
 //  Last Update: 2014/06/06
 //
 
 #import <Foundation/Foundation.h>
-#import "PMApiRequestListener.h"
 #import "PMPush.h"
 #import "PMAttribute.h"
 
-@interface Pushman : NSObject
+@class HLKNetworkResponse;
+@class PMApiRequestListener;
 
-@property(nonatomic, readonly) NSString *apiKey;
-@property(nonatomic, readonly) NSString *secret;
+@interface Pushman : NSObject
 
 + (void)date:(PMApiRequestListener *)listener;
 
@@ -28,14 +27,16 @@
 
 + (void)initialize:(NSString *)key secret:(NSString *)secret;
 
-+(void)dumpRequest:(NSURLRequest *)request;
++ (void)dumpRequest:(NSURLRequest *)request;
 
-+(void)dumpResponse:(NSHTTPURLResponse*)response body:(NSData *)body;
++ (void)dumpResponse:(HLKNetworkResponse*)response;
 
 - (PMPush *)push;
 
 - (PMAttribute *)user;
 
-+ (BOOL) isConnectNetwork;
++ (void)didEnterBackground;
+
++ (void)willEnterForeground;
 
 @end
