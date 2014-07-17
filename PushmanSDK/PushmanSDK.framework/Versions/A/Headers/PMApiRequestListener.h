@@ -7,6 +7,8 @@
 
 @interface PMApiRequestListener : NSObject
 
+@property (copy, nonatomic) NSString *deviceToken;
+
 typedef void (^RequestSuccessHandler)(long status, NSDictionary *headers, NSDictionary *json);
 
 typedef void (^RequestErrorHandler)(long errorCode, NSString *errorMessage);
