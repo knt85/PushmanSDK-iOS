@@ -2,8 +2,8 @@
 //  Pushman.h
 //  Pushman
 //
-//  PushmanSDK VERSION : 0.2.1
-//  Last Update: 2014/07/17
+//  PushmanSDK VERSION : 0.2.2
+//  Last Update: 2014/07/25
 //
 
 #import <Foundation/Foundation.h>

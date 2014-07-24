@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "PushmanSDK"
-  s.version      = "0.2.1"
+  s.version      = "0.2.2"
   s.summary      = "PushmanSDK"
   s.homepage     = "http://www.pushman.js"
   s.license = {
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author       = "Pushman"
   s.source       = {
     :git => "https://github.com/Pushman/PushmanSDK-iOS.git",
-    :tag => "release-0.2.1"
+    :tag => "release-0.2.2"
   }
   s.platform   = :ios
   s.frameworks = 'AudioToolbox', 'SystemConfiguration'
