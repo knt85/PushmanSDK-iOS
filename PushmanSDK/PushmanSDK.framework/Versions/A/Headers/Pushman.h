@@ -2,7 +2,7 @@
 //  Pushman.h
 //  Pushman
 //
-//  PushmanSDK VERSION : 0.2.2
+//  PushmanSDK VERSION : 0.2.3
 //  Last Update: 2014/07/25
 //
 
