@@ -5,9 +5,13 @@
 #import <UIKit/UIKit.h>
 #import "PMApiBase.h"
 
+typedef void (^PushReceiveListener)(NSDictionary*);
+
 @interface PMPush : PMApiBase
 
 @property(nonatomic, readonly) NSDictionary *lastPushParam;
+
+@property(nonatomic, copy) PushReceiveListener pushListener;
 
 - (void)updatePush:(NSData *)deviceToken;
 
